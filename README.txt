@@ -1,3 +1,0 @@
-# bharathkumaruxui.github.io
-
-Hello
