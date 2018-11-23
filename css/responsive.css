@@ -1,0 +1,186 @@
+@media (max-width: 1169px) {
+    .container {
+        width: auto;
+        padding: 0 10px;
+    }
+
+
+
+    @media (min-width:319px) and (max-width:767px) {
+        .banner {
+            background-position: 70% center;
+        }
+        .banner-content {
+            text-align: left;
+            width: 96%;
+
+        }
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        h6 {
+            font-size: 40px;
+        }
+        h4 {
+            width: 100%;
+            border: 0;
+        }
+        .header .container {
+            padding: 0;
+        }
+        .header-left {
+            width: 50%;
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .toggle {
+            display: inline-block;
+            width: 10%;
+            font-size: 24px;
+            float: right;
+            /*             color: #fff;*/
+            margin: 18px auto;
+            text-align: center;
+        }
+        .header-right {
+            float: none;
+            width: 100%;
+
+        }
+        .sticky{
+            padding: 0px;
+        }
+        #myDIV {
+            display: none;
+            transition: background-color 200ms ease, opacity 400ms ease, visibility 400ms ease, z-index 400ms ease;
+            width: 100%;
+        }
+        .header-right .menu {
+            float: none;
+            z-index: 2;
+
+        }
+        .header-right .menu ul {
+            width: 100%;
+
+        }
+        .header-right .menu li {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 15px 0px;
+        }
+        .left {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        .right {
+            width: 100%;
+            float: none;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .circle {
+            margin: 0 auto;
+            width: 48%;
+        }
+        .circle-2,
+        .circle-4 {
+            margin-left: 2%;
+        }
+        .circle-1,
+        .circle-2 {
+            margin-bottom: 40px;
+        }
+        .experience .right {
+            border: 0;
+            padding: 0;
+        }
+        .suit-circle {
+            display: none;
+        }
+        .box4 {
+            margin-bottom: 0;
+        }
+    }
+    @media (min-width:375px) and (max-width:667px) {
+        h6 {
+            font-size: 22px;
+            margin-bottom: 40px;
+            margin-top: 50px;
+        }
+
+        h5 {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 20px;
+            font-weight: 200;
+            margin-bottom: 50px;
+        }
+        .sticky{
+            padding: 0px;
+        }
+        .banner-content .bdr {
+            margin-bottom: 40px;
+        }
+        .primary,
+        .secondary {
+            width: 100%;
+        }
+        .secondary {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        .circle {
+            width: 100%;
+            float: none;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+        .service-content {
+            border: 0;
+        }
+        span {
+            float: none;
+        }
+        .left {
+            margin-bottom: 30px;
+        }
+        .box {
+            width: 100%;
+            float: none;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+        .box4 {
+            margin-bottom: 0;
+        }
+        .footer-left,
+        .footer-right {
+            float: none;
+            text-align: center;
+        }
+        .footer-right {
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .social li {
+            display: inline-block;
+            text-align: center;
+            width: 25%;
+            margin-left: 0;
+        }
+    }
